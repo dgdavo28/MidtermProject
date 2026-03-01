@@ -11,7 +11,7 @@ public class App {
             }
         }
 
-        System.out.println("=== Midterm Pipeline Demo App ===");
+        System.out.println("=== Midterm Pipeline Demo App (Demo) ===");
         System.out.println(BuildInfo.summary());
         System.out.println("Fibonacci(" + n + ") = " + Fibonacci.fib(n));
         System.out.println("================================");
