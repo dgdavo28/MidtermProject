@@ -2,9 +2,9 @@ services:
   midterm-app-staging:
     image: midterm-demo:staging
     container_name: midterm-app-staging
-    command: ["java", "-jar", "app.jar", "10"]
+    command: ["java", "-jar", "app.jar", "fail", "10"]
 
   midterm-app-production:
     image: midterm-demo:production
     container_name: midterm-app-production
-    command: ["java", "-jar", "app.jar", "10"]
+    command: ["java", "-jar", "app.jar", "fail", "10"]
